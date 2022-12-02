@@ -1,9 +1,7 @@
-name: Publish Version
+name: Publish Version to Master
 on:
-  push:
-    branches: [ master, alpha ]
   pull_request:
-    branches: [ master, alpha ]
+    branches: [ master ]
 
 jobs:
   quality:

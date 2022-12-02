@@ -1,4 +1,4 @@
-name: Publish Version
+name: Publish Version to Alpha
 on:
   push:
     branches: [ alpha ]
