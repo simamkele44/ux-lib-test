@@ -9,7 +9,7 @@ export const UXTime:React.FC<checkDateTime> = (time: checkDateTime) => {
   const asktime: checkDateTime = time;
   return (
     <div>
-      Updating  auto release:
+      installed exece:
       {TimeElapsed({time: asktime.time})}
     </div>
   );
