@@ -52,6 +52,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.19.6",
+    "@semantic-release/npm": "^9.0.1",
     "@size-limit/preset-small-lib": "^8.1.0",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-info": "^5.3.21",
@@ -84,11 +85,12 @@
     }
   },
   "dependencies": {
+    "@semantic-release/exec": "^6.0.3",
     "git-cz": "^4.9.0",
     "tsdx": "^0.14.1"
   },
-  "resolutions": {
-    "npm/chalk": "^4.1.2"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
   }
-  
 }

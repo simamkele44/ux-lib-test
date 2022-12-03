@@ -1982,6 +1982,18 @@
   "resolved" "https://registry.npmjs.org/@semantic-release/error/-/error-3.0.0.tgz"
   "version" "3.0.0"
 
+"@semantic-release/exec@^6.0.3":
+  "integrity" "sha512-bxAq8vLOw76aV89vxxICecEa8jfaWwYITw6X74zzlO0mc/Bgieqx9kBRz9z96pHectiTAtsCwsQcUyLYWnp3VQ=="
+  "resolved" "https://registry.npmjs.org/@semantic-release/exec/-/exec-6.0.3.tgz"
+  "version" "6.0.3"
+  dependencies:
+    "@semantic-release/error" "^3.0.0"
+    "aggregate-error" "^3.0.0"
+    "debug" "^4.0.0"
+    "execa" "^5.0.0"
+    "lodash" "^4.17.4"
+    "parse-json" "^5.0.0"
+
 "@semantic-release/github@^8.0.0":
   "integrity" "sha512-ZxgaxYCeqt9ylm2x3OPqUoUqBw1p60LhxzdX6BqJlIBThupGma98lttsAbK64T6L6AlNa2G5T66BbiG8y0PIHQ=="
   "resolved" "https://registry.npmjs.org/@semantic-release/github/-/github-8.0.6.tgz"
@@ -2004,7 +2016,7 @@
     "p-retry" "^4.0.0"
     "url-join" "^4.0.0"
 
-"@semantic-release/npm@^9.0.0":
+"@semantic-release/npm@^9.0.0", "@semantic-release/npm@^9.0.1":
   "integrity" "sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g=="
   "resolved" "https://registry.npmjs.org/@semantic-release/npm/-/npm-9.0.1.tgz"
   "version" "9.0.1"
@@ -13118,7 +13130,7 @@
   "resolved" "https://registry.npmjs.org/select/-/select-1.1.2.tgz"
   "version" "1.1.2"
 
-"semantic-release@^19.0.5", "semantic-release@>=18.0.0-beta.1", "semantic-release@>=19.0.0":
+"semantic-release@^19.0.5", "semantic-release@>=18.0.0", "semantic-release@>=18.0.0-beta.1", "semantic-release@>=19.0.0":
   "integrity" "sha512-NMPKdfpXTnPn49FDogMBi36SiBfXkSOJqCkk0E4iWOY1tusvvgBwqUmxTX1kmlT6kIYed9YwNKD1sfPpqa5yaA=="
   "resolved" "https://registry.npmjs.org/semantic-release/-/semantic-release-19.0.5.tgz"
   "version" "19.0.5"
