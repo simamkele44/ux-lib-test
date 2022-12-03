@@ -87,8 +87,8 @@
     "git-cz": "^4.9.0",
     "tsdx": "^0.14.1"
   },
-  "resolutions": {
-    "npm/chalk": "^4.1.2"
+  "publishConfig": {
+    "access": "public"
   }
   
 }
