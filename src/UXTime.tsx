@@ -9,7 +9,7 @@ export const UXTime:React.FC<checkDateTime> = (time: checkDateTime) => {
   const asktime: checkDateTime = time;
   return (
     <div>
-      User U Time:
+      User U b Time:
       {TimeElapsed({time: asktime.time})}
     </div>
   );
