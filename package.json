@@ -92,5 +92,8 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest"
+  },
+  "release": {
+    "branches": ["master"]
   }
 }
