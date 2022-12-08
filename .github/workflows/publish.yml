@@ -36,10 +36,9 @@ jobs:
           [
             '+([0-9])?(.{+([0-9]),x}).x',
             'master',
-            'alpha', 
-            'alpha-major',
             {
-              name: 'alpha', 
+              name: 'alpha',
+              channel: 'alpha',
               prerelease: true
             }
           ]
