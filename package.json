@@ -100,10 +100,7 @@
         {"type": "docs", "scope":"README", "release": "patch"},
         {"type": "refactor", "release": "patch"},
         {"type": "fix", "release": "patch"}
-      ],
-      "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-      }
+      ]
     }],
     "@semantic-release/release-notes-generator",
     "@semantic-release/npm",
